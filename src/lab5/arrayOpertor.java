@@ -16,7 +16,6 @@ public class arrayOpertor {
         findAverage(myArray);
         findMAX(myArray);
         findMIN(myArray);
-
     }  //main
 
     private static void findMIN(int[] myArray) {
@@ -42,7 +41,7 @@ public class arrayOpertor {
     private static void findAverage(int[] myArray) {
         int total = 0;
         for (int val : myArray)
-            tolal += val;
+            total += val;
         System.out.print("The average value is" + (total/MAX));
     }
 
