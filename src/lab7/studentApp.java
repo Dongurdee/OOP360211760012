@@ -1,7 +1,6 @@
 package lab7;
 
 public class studentApp {
-
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.setName("Mit");
