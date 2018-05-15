@@ -11,5 +11,13 @@ public class studentApp {
 
         Student s2 = new Student("safe",90,"Female",190);
         System.out.println(s2.toString());
+        //intput data from user
+        Student s3 = new Student()
+        s3 = inputdata(s3);
+    }
+
+    private static Student inputdata(Student s3) {
+
+
     }
 }
