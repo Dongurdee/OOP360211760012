@@ -10,7 +10,7 @@ public class Student {
     private String grnder;
     private double height;
 
-    public Student();
+    public Student(){}
     //design constructor
 
     public Student(String name, int age, String grnder, double height) {
