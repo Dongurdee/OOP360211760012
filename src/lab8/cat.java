@@ -1,10 +1,8 @@
 package lab8;
 
-public class cat extends Pet{
-        @Override
-        public void makencise() {
-            System.out.println("Weee Weee!!!");
-
-        }
+public class cat extends Pet {
+    @Override
+    public void makeNoise() {
+        System.out.println("Meaw Meaw !!!");
     }
-
+}

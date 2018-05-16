@@ -4,7 +4,16 @@ public abstract class Pet {
     private String name;
     private int age;
 
-    public abstract void makencise();
+
+    public abstract void makeNoise();
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     public String getName() {
         return name;
@@ -21,10 +30,7 @@ public abstract class Pet {
     public void setAge(int age) {
         this.age = age;
     }
-
-}
-
-
+}//class
 
 
 
